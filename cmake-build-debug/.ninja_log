@@ -1,0 +1,12 @@
+# ninja log v6
+4	66	7476863807248488	CMakeFiles/Study.dir/main.c.obj	84bdde3bc77718d9
+79	193	7479814565644477	Sequential.exe	65be4054f51a17db
+47	114	7478898967778071	new_target.exe	b04037fb13160aa8
+3	56	7476882094174290	CMakeFiles/Study.dir/sjjg.c.obj	b8539fc186f5b8a6
+1	47	7478898967308085	CMakeFiles/new_target.dir/Class01/class01.c.obj	cb07a13d399ac620
+1	172	7482615529722011	build.ninja	64756e72e2788355
+3	233	7477165238153443	CMakeFiles/Study.dir/class02.c.obj	b3a471426924e44c
+2	138	7478886676046137	CMakeFiles/new_target.dir/Class/class01.c.obj	15e320fdd52531f3
+1	77	7478904317091930	CMakeFiles/Sequential_List.dir/Class/class_splist.c.obj	86eac558eefb37dc
+78	244	7478904317857727	Sequential_List.exe	b2da0d04645951e0
+3	79	7479814564882151	CMakeFiles/Sequential.dir/Class/Sequential_List.cpp.obj	e1602e063bb0f30

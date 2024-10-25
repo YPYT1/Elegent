@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/C_studey/enum.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/C_studey/zhizhen.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/LInkedLIst/LInkList_app.cpp" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Class/LInkedLIst/LInkList_app.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Class/LInkedLIst/maopao.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/LInkedLIst/poly.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/LInkedLIst/poly.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/Queue/LinkQueue.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/Queue/LinkQueue.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Class/stack/stack.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Mycodeschool/linkedlist/linklistdel.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Mycodeschool/stack/stackarr.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/work/Linetable.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/work/Oddandeven.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/work/hanshu.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/work/youxubiao.cpp" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

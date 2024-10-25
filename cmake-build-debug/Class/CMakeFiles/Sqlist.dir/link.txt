@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Sqlist.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\Sqlist.dir/objects.a @CMakeFiles\Sqlist.dir\objects1.rsp
+D:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Sqlist.dir/objects.a -Wl,--no-whole-archive -o Sqlist.exe -Wl,--out-implib,libSqlist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Sqlist.dir\linkLibs.rsp

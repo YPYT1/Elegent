@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\LinkList_app.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\LinkList_app.dir/objects.a @CMakeFiles\LinkList_app.dir\objects1.rsp
+D:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LinkList_app.dir/objects.a -Wl,--no-whole-archive -o LinkList_app.exe -Wl,--out-implib,libLinkList_app.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LinkList_app.dir\linkLibs.rsp

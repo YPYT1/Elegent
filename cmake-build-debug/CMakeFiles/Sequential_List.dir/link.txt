@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Sequential_List.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\Sequential_List.dir/objects.a @CMakeFiles\Sequential_List.dir\objects1.rsp
+D:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Sequential_List.dir/objects.a -Wl,--no-whole-archive -o Sequential_List.exe -Wl,--out-implib,libSequential_List.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Sequential_List.dir\linkLibs.rsp

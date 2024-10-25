@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\maopao.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\maopao.dir/objects.a @CMakeFiles\maopao.dir\objects1.rsp
+D:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\maopao.dir/objects.a -Wl,--no-whole-archive -o maopao.exe -Wl,--out-implib,libmaopao.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\maopao.dir\linkLibs.rsp

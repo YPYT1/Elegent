@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\enum.dir/objects.a
+D:\MinGW\MinGW\bin\ar.exe qc CMakeFiles\enum.dir/objects.a @CMakeFiles\enum.dir\objects1.rsp
+D:\MinGW\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\enum.dir/objects.a -Wl,--no-whole-archive -o enum.exe -Wl,--out-implib,libenum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\enum.dir\linkLibs.rsp

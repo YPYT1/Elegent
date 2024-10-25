@@ -1,0 +1,121 @@
+// 删除指定位置的节点
+/*bool Llist::Delete(int i, int &e) {
+    NODE *p = head;
+    int j = 0;
+    while (p->next != NULL && j < i - 1) {
+        p = p->next;
+        j++;
+    }
+    if (p->next == NULL || j > i - 1) return false;
+
+    NODE *q = p->next;
+    p->next = q->next;
+    e = q->data;
+    free(q);
+    return true;
+}*/
+
+/*// 获取指定位置的数据
+bool Llist::Getelem(int i, int &e) {
+    NODE *p = head->next;
+    int j = 1;
+    while (p != NULL && j < i) {
+        p = p->next;
+        j++;
+    }
+    if (p == NULL || j != i) return false;
+    e = p->data;
+    return true;
+}*/
+
+// 把链表中值为x的数据改为y
+/*void Llist::Modify(int x, int y) {
+    NODE *p = head->next;
+    while (p != NULL) {
+        if (p->data == x) {
+            p->data = y;
+        }
+        p = p->next;
+    }
+}*/
+
+// 把i位置上的数替换为x
+/*void Llist::Modify1(int x, int i) {
+    NODE *p = head->next;
+    int j = 1;
+    while (p != NULL && j < i) {
+        p = p->next;
+        j++;
+    }
+    if (p != NULL && j == i) {
+        p->data = x;
+    }
+}*/
+
+// 查找链表中值为x的数据并返回位置
+/*int Llist::Seek(int x) {
+    NODE *p = head->next;
+    int index = 1;
+    while (p != NULL) {
+        if (p->data == x) {
+            return index;
+        }
+        p = p->next;
+        index++;
+    }
+    return -1; // 未找到
+}*/
+
+// 统计链表中值为x的节点个数
+/*int Llist::Count(int x) {
+    NODE *p = head->next;
+    int count = 0;
+    while (p != NULL) {
+        if (p->data == x) {
+            count++;
+        }
+        p = p->next;
+    }
+    return count;
+}*/
+
+// 计算链表的长度
+/*int Llist::Length() {
+    NODE *p = head->next;
+    int length = 0;
+    while (p != NULL) {
+        length++;
+        p = p->next;
+    }
+    return length;
+}*/
+// 判断链表是否为空
+// 头插法创建链表
+/*void Llist::HeadCreate(int n) {
+    if (n <= 0) return;
+    NODE *p;
+    int x;
+    for (int i = 0; i < n; i++) {
+        p = (NODE *) malloc(sizeof(NODE));
+        printf("请输入第%d个节点的值：", i + 1);
+        scanf("%d", &x);
+        p->data = x;
+        p->next = head->next;
+        head->next = p;
+    }
+}*/
+/*// 插入操作
+void Llist::Insert(int i, int x) {
+    NODE *p = head;
+    int j = 0;
+    while (p != NULL && j < i - 1) {
+        p = p->next;
+        j++;
+    }
+    if (p == NULL || j > i - 1) return;
+
+    NODE *q = (NODE *) malloc(sizeof(NODE));
+    q->data = x;
+    q->next = p->next;
+    p->next = q;
+}*/
